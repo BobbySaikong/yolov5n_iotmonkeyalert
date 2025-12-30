@@ -1,0 +1,13 @@
+train: datasets/macaca_colour/images/train
+val: datasets/macaca_colour/images/train
+test:
+
+nc: 1
+names: ["Monyet"]
+
+roboflow:
+  workspace: deteksi-monyet-garut
+  project: macaca-fascicularis-whdga
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deteksi-monyet-garut/macaca-fascicularis-whdga/dataset/1
